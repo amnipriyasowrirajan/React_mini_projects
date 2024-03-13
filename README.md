@@ -49,3 +49,10 @@ A Filter Products component for React that allows users to filter products based
 
 - filters: (object) An object containing filter criteria such as category, price range, etc.
 - onFiltersChange: (function) A callback function triggered when filters are changed. It receives the updated filter object as an argument.
+
+# Tip Calculator
+
+A Tip Calculator component for React that helps users calculate tip amounts based on bill total and selected tip percentage.
+
+- billTotal: (number) The total amount of the bill.
+- tipPercentage: (number) The tip percentage to calculate the tip amount
