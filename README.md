@@ -32,3 +32,11 @@
   - position: (string) (Optional) The position of the tooltip relative to the target element. Default is 'top'.
   - delay: (number) (Optional) The delay in milliseconds before the tooltip appears. Default is 0.
   - className: (string) (Optional) Additional CSS class name(s) to apply to the tooltip.
+- Currency Converter
+  A Currency Converter component for React that allows users to convert between different currencies.
+  - amount: (number) The amount of money to convert.
+  - fromCurrency: (string) The currency to convert from.
+  - toCurrency: (string) The currency to convert to.
+  - onAmountChange: (function) Callback function triggered when the amount input changes.
+  - onFromCurrencyChange: (function) Callback function triggered when the "from" currency selection changes.
+  - onToCurrencyChange: (function) Callback function triggered when the "to" currency selection changes.

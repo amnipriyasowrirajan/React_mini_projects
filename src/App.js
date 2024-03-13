@@ -6,6 +6,7 @@ import CountdownTimerTest from "./components/3-countdown-timer/test";
 import StepProgressBarTest from "./components/4-step-progress-bar/test";
 import RandomQuoteGenerator from "./components/5-random-quote-generator";
 import TooltipTest from "./components/6-tooltip/test";
+import CurrencyConverter from "./components/7-currency-converter";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <StepProgressBarTest />
       <RandomQuoteGenerator />
       <TooltipTest />
+      <CurrencyConverter />
     </div>
   );
 }
