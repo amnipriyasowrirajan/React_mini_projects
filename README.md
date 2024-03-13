@@ -26,3 +26,9 @@
 - Random Quote Generator
   A Random Quote Generator component for React that displays a random quote each time it's refreshed or triggered.
   - refresh: (boolean) If set to true, the component will fetch a new random quote. You can toggle this prop to refresh the quote.
+- Tooltip
+  A Tooltip component for React that provides contextual information when hovering over an element.
+  - text: (string) The text to display in the tooltip.
+  - position: (string) (Optional) The position of the tooltip relative to the target element. Default is 'top'.
+  - delay: (number) (Optional) The delay in milliseconds before the tooltip appears. Default is 0.
+  - className: (string) (Optional) Additional CSS class name(s) to apply to the tooltip.
