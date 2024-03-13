@@ -19,5 +19,10 @@
 
 - Step Progress Bar
   A Step Progress Bar component for React that allows you to visually represent progress through a series of steps.
+
   - steps: (array) An array of step objects, each containing a label for the step.
   - currentStep: (number) The index of the current step. This will determine which steps are considered completed and which are yet to be completed.
+
+- Random Quote Generator
+  A Random Quote Generator component for React that displays a random quote each time it's refreshed or triggered.
+  - refresh: (boolean) If set to true, the component will fetch a new random quote. You can toggle this prop to refresh the quote.
