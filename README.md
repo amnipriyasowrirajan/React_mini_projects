@@ -28,10 +28,12 @@
   - refresh: (boolean) If set to true, the component will fetch a new random quote. You can toggle this prop to refresh the quote.
 - Tooltip
   A Tooltip component for React that provides contextual information when hovering over an element.
+
   - text: (string) The text to display in the tooltip.
   - position: (string) (Optional) The position of the tooltip relative to the target element. Default is 'top'.
   - delay: (number) (Optional) The delay in milliseconds before the tooltip appears. Default is 0.
   - className: (string) (Optional) Additional CSS class name(s) to apply to the tooltip.
+
 - Currency Converter
   A Currency Converter component for React that allows users to convert between different currencies.
   - amount: (number) The amount of money to convert.
@@ -40,3 +42,10 @@
   - onAmountChange: (function) Callback function triggered when the amount input changes.
   - onFromCurrencyChange: (function) Callback function triggered when the "from" currency selection changes.
   - onToCurrencyChange: (function) Callback function triggered when the "to" currency selection changes.
+
+# Filter Products
+
+A Filter Products component for React that allows users to filter products based on various criteria.
+
+- filters: (object) An object containing filter criteria such as category, price range, etc.
+- onFiltersChange: (function) A callback function triggered when filters are changed. It receives the updated filter object as an argument.
