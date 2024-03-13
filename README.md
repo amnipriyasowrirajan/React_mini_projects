@@ -93,3 +93,9 @@ A Drag and Drop component for React that enables users to drag and drop elements
 A Form Validation component for React that enables validation of form inputs and displays error messages accordingly.
 
 - onSubmit: (function) A callback function triggered when the form is submitted.
+
+# File Upload Component
+
+A File Upload component for React that allows users to upload files from their local system.
+
+- onChange: (function) A callback function triggered when a file is selected. It receives the selected file(s) as an argument.
