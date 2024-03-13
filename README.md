@@ -87,3 +87,9 @@ A Button Ripple Effect component for React that adds a ripple effect animation t
 A Drag and Drop component for React that enables users to drag and drop elements within a specified area.
 
 - The Drag and Drop component does not accept any props. However, you can style the draggable elements and the drop area using CSS.
+
+# Form Validation Component
+
+A Form Validation component for React that enables validation of form inputs and displays error messages accordingly.
+
+- onSubmit: (function) A callback function triggered when the form is submitted.
