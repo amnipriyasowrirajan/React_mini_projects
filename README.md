@@ -56,3 +56,9 @@ A Tip Calculator component for React that helps users calculate tip amounts base
 
 - billTotal: (number) The total amount of the bill.
 - tipPercentage: (number) The tip percentage to calculate the tip amount
+
+# Music Player Component
+
+A Music Player component for React that allows users to play, pause, skip tracks, adjust volume, and view track progress.
+
+- tracks: (array) An array of track objects containing metadata such as title, artist, duration, and source URL (src) of each track.
