@@ -68,3 +68,10 @@ A Music Player component for React that allows users to play, pause, skip tracks
 A Custom Progress Bar component for React that allows users to display progress in a visually appealing and customizable way.
 
 - progress: (number) The current progress value, usually between 0 and 100.
+
+# BMI Calculator Component
+
+A BMI (Body Mass Index) Calculator component for React that helps users calculate their BMI based on weight and height inputs.
+
+- weight: (number) The weight of the person in kilograms.
+- height: (number) The height of the person in meters.
