@@ -75,3 +75,9 @@ A BMI (Body Mass Index) Calculator component for React that helps users calculat
 
 - weight: (number) The weight of the person in kilograms.
 - height: (number) The height of the person in meters.
+
+# Button Ripple Effect Component
+
+A Button Ripple Effect component for React that adds a ripple effect animation to buttons upon click.
+
+- The Button Ripple Effect component accepts all the props that a regular HTML button element accepts.
