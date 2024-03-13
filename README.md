@@ -99,3 +99,17 @@ A Form Validation component for React that enables validation of form inputs and
 A File Upload component for React that allows users to upload files from their local system.
 
 - onChange: (function) A callback function triggered when a file is selected. It receives the selected file(s) as an argument.
+
+# Quiz Component
+
+A Quiz component for React that allows users to take quizzes with multiple-choice questions.
+
+- questions: (array) An array of question objects containing the question, options, and the index of the correct answer.
+- onSubmit: (function) A callback function triggered when the quiz is submitted. It receives an array of objects representing the user's answers.
+
+# Nested Comments Component
+
+A Nested Comments component for React that allows users to create and display nested comment threads.
+
+- comments: (array) An array of comment objects representing the initial comments to display.
+- onCommentSubmit: (function) A callback function triggered when a new comment is submitted. It receives the new comment object as an argument
