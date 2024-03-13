@@ -2,6 +2,7 @@
 import "./App.css";
 import PaginationTest from "./components/1-pagination/test";
 import MusicPlayer from "./components/10-music-player";
+import ProgressBar from "./components/11-progress-bar";
 import DigitalClock from "./components/2-digital-clock";
 import CountdownTimerTest from "./components/3-countdown-timer/test";
 import StepProgressBarTest from "./components/4-step-progress-bar/test";
@@ -25,6 +26,7 @@ function App() {
       <FilterProducts />
       <TipCalculator />
       <MusicPlayer />
+      <ProgressBar />
     </div>
   );
 }

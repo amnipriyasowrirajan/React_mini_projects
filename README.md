@@ -62,3 +62,9 @@ A Tip Calculator component for React that helps users calculate tip amounts base
 A Music Player component for React that allows users to play, pause, skip tracks, adjust volume, and view track progress.
 
 - tracks: (array) An array of track objects containing metadata such as title, artist, duration, and source URL (src) of each track.
+
+# Custom Progress Bar
+
+A Custom Progress Bar component for React that allows users to display progress in a visually appealing and customizable way.
+
+- progress: (number) The current progress value, usually between 0 and 100.
