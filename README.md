@@ -113,3 +113,13 @@ A Nested Comments component for React that allows users to create and display ne
 
 - comments: (array) An array of comment objects representing the initial comments to display.
 - onCommentSubmit: (function) A callback function triggered when a new comment is submitted. It receives the new comment object as an argument
+
+# PDF ViewerA
+
+PDF Viewer component for React that allows users to view PDF documents within their application.
+
+Install -> npm i @react-pdf/renderer
+
+- url: (string) The URL or file path of the PDF document to be displayed.
+- width: (number) (Optional) The width of the PDF viewer component. Default is 100%.
+- height: (number) (Optional) The height of the PDF viewer component. Default is 500px.
