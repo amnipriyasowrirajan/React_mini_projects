@@ -1,47 +1,57 @@
-- Pagination
-  A Pagination component for React that allows easy navigation through pages of data.
+# Pagination
 
-  - currentPage: (number) The current active page.
-  - totalPages: (number) Total number of pages.
-  - onPageChange: (function) Callback function triggered when a page is clicked. Receives the page number as an argument.
+A Pagination component for React that allows easy navigation through pages of data.
 
-- Digital Clock
-  A simple Digital Clock component for React that displays the current time.
+- currentPage: (number) The current active page.
+- totalPages: (number) Total number of pages.
+- onPageChange: (function) Callback function triggered when a page is clicked. Receives the page number as an argument.
 
-  - The Digital Clock component doesn't accept any props.
+# Digital Clock
 
-- Countdown Timer
-  A Countdown Timer component for React that counts down to a specified time or duration.
+A simple Digital Clock component for React that displays the current time.
 
-  - targetTime: (Date) The target time to count down to.
-  - duration: (number) The duration in seconds for the countdown. Specify either targetTime or duration, not both.
-  - onComplete: (function) Callback function triggered when the countdown reaches zero.
+- The Digital Clock component doesn't accept any props.
 
-- Step Progress Bar
-  A Step Progress Bar component for React that allows you to visually represent progress through a series of steps.
+# Countdown Timer
 
-  - steps: (array) An array of step objects, each containing a label for the step.
-  - currentStep: (number) The index of the current step. This will determine which steps are considered completed and which are yet to be completed.
+A Countdown Timer component for React that counts down to a specified time or duration.
 
-- Random Quote Generator
-  A Random Quote Generator component for React that displays a random quote each time it's refreshed or triggered.
-  - refresh: (boolean) If set to true, the component will fetch a new random quote. You can toggle this prop to refresh the quote.
-- Tooltip
-  A Tooltip component for React that provides contextual information when hovering over an element.
+- targetTime: (Date) The target time to count down to.
+- duration: (number) The duration in seconds for the countdown. Specify either targetTime or duration, not both.
+- onComplete: (function) Callback function triggered when the countdown reaches zero.
 
-  - text: (string) The text to display in the tooltip.
-  - position: (string) (Optional) The position of the tooltip relative to the target element. Default is 'top'.
-  - delay: (number) (Optional) The delay in milliseconds before the tooltip appears. Default is 0.
-  - className: (string) (Optional) Additional CSS class name(s) to apply to the tooltip.
+# Step Progress Bar
 
-- Currency Converter
-  A Currency Converter component for React that allows users to convert between different currencies.
-  - amount: (number) The amount of money to convert.
-  - fromCurrency: (string) The currency to convert from.
-  - toCurrency: (string) The currency to convert to.
-  - onAmountChange: (function) Callback function triggered when the amount input changes.
-  - onFromCurrencyChange: (function) Callback function triggered when the "from" currency selection changes.
-  - onToCurrencyChange: (function) Callback function triggered when the "to" currency selection changes.
+A Step Progress Bar component for React that allows you to visually represent progress through a series of steps.
+
+- steps: (array) An array of step objects, each containing a label for the step.
+- currentStep: (number) The index of the current step. This will determine which steps are considered completed and which are yet to be completed.
+
+# Random Quote Generator
+
+A Random Quote Generator component for React that displays a random quote each time it's refreshed or triggered.
+
+- refresh: (boolean) If set to true, the component will fetch a new random quote. You can toggle this prop to refresh the quote.
+
+# Tooltip
+
+A Tooltip component for React that provides contextual information when hovering over an element.
+
+- text: (string) The text to display in the tooltip.
+- position: (string) (Optional) The position of the tooltip relative to the target element. Default is 'top'.
+- delay: (number) (Optional) The delay in milliseconds before the tooltip appears. Default is 0.
+- className: (string) (Optional) Additional CSS class name(s) to apply to the tooltip.
+
+# Currency Converter
+
+A Currency Converter component for React that allows users to convert between different currencies.
+
+- amount: (number) The amount of money to convert.
+- fromCurrency: (string) The currency to convert from.
+- toCurrency: (string) The currency to convert to.
+- onAmountChange: (function) Callback function triggered when the amount input changes.
+- onFromCurrencyChange: (function) Callback function triggered when the "from" currency selection changes.
+- onToCurrencyChange: (function) Callback function triggered when the "to" currency selection changes.
 
 # Filter Products
 
@@ -123,3 +133,20 @@ Install -> npm i @react-pdf/renderer
 - url: (string) The URL or file path of the PDF document to be displayed.
 - width: (number) (Optional) The width of the PDF viewer component. Default is 100%.
 - height: (number) (Optional) The height of the PDF viewer component. Default is 500px.
+
+# Firebase TODO
+
+A TODO application built with React and Firebase, allowing users to create, read, update, and delete TODO items.
+
+- npm i react-firebase-hooks
+
+- npm install firebase
+- Add new TODO items
+- Mark TODO items as completed
+- Edit existing TODO items
+- Delete TODO items
+- Real-time synchronization with Firestore database
+
+# Firebas Auth
+
+npm i react-firebase-hooks
