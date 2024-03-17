@@ -12,25 +12,27 @@ function Todo({ todoItem, setCurrentEditedTodoID, setInputValue, authInfo }) {
       <ListItem>
         <ListItemText primary={todoItem?.todoItem?.todo} />
       </ListItem>
-
-      <Button
-        onClick={() => handleDelete(todoItem.id)}
-        variant="contained"
-        color="secondary"
-      >
-        Delete
-      </Button>
-
-      <Button
-        onClick={() => {
-          setInputValue(todoItem.todoItem.todo);
-          setCurrentEditedTodoID(todoItem.id);
-        }}
-        variant="contained"
-        color="info"
-      >
-        Edit
-      </Button>
+      {authInfo !== null ? (
+        <Button
+          onClick={() => handleDelete(todoItem.id)}
+          variant="contained"
+          color="secondary"
+        >
+          Delete
+        </Button>
+      ) : null}
+      {authInfo !== null ? (
+        <Button
+          onClick={() => {
+            setInputValue(todoItem.todoItem.todo);
+            setCurrentEditedTodoID(todoItem.id);
+          }}
+          variant="contained"
+          color="info"
+        >
+          Edit
+        </Button>
+      ) : null}
     </List>
   );
 }

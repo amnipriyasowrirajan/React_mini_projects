@@ -147,6 +147,11 @@ A TODO application built with React and Firebase, allowing users to create, read
 - Delete TODO items
 - Real-time synchronization with Firestore database
 
-# Firebas Auth
+# Firebase Authentication
 
-npm i react-firebase-hooks
+A Firebase Authentication component for React that allows users to sign up, sign in, and sign out using Firebase Authentication services.
+
+- Sign up with email and password
+- Sign in with email and password
+- Sign out
+- Install => npm i react-firebase-hooks
