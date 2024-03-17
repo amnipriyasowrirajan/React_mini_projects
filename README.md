@@ -165,3 +165,12 @@ A Debounce API Call component for React that helps in handling frequent API call
 - queryParams: (object) (Optional) An object containing query parameters to be included in the API request.
 - debounceTime: (number) The debounce time in milliseconds. This determines the delay before making the API call after the user has finished typing.
 - onData: (function) A callback function triggered when data is received from the API response.
+
+# Sort Data
+
+A Sort Data component for React that enables users to sort data in a table or list based on various criteria.
+
+- data: (array) An array of objects representing the data to be sorted.
+- onSort: (function) A callback function triggered when sorting is applied. It receives the field and order as arguments.
+
+# Movie App
