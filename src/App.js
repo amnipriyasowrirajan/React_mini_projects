@@ -14,6 +14,7 @@ import PdfViewer from "./components/19-pdf-viewer";
 import DigitalClock from "./components/2-digital-clock";
 import FirebaseTodo from "./components/20-firebase-todo";
 import FirebaseAuth from "./components/21-firebase-auth";
+import DebounceApiCall from "./components/22-debounce-api-call";
 import CountdownTimerTest from "./components/3-countdown-timer/test";
 import StepProgressBarTest from "./components/4-step-progress-bar/test";
 import RandomQuoteGenerator from "./components/5-random-quote-generator";
@@ -47,6 +48,7 @@ function App() {
       <PdfViewer />
       <FirebaseTodo />
       <FirebaseAuth />
+      <DebounceApiCall />
     </div>
   );
 }

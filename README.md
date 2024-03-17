@@ -155,3 +155,13 @@ A Firebase Authentication component for React that allows users to sign up, sign
 - Sign in with email and password
 - Sign out
 - Install => npm i react-firebase-hooks
+
+# Debounce API Call
+
+A Debounce API Call component for React that helps in handling frequent API calls by debouncing the requests based on user input.
+
+- endpoint: (string) The URL of the API endpoint to be called.
+- method: (string) The HTTP method to be used for the API request (e.g., "GET", "POST", etc.).
+- queryParams: (object) (Optional) An object containing query parameters to be included in the API request.
+- debounceTime: (number) The debounce time in milliseconds. This determines the delay before making the API call after the user has finished typing.
+- onData: (function) A callback function triggered when data is received from the API response.
